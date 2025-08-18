@@ -1,0 +1,35 @@
+{
+  "name": "@stack-finance/branch-events-sdk",
+  "version": "1.0.0",
+  "description": "An SDK for making requests to branch.io/events ",
+  "keywords": [
+    "branch",
+    "events",
+    "log"
+  ],
+  "homepage": "https://github.com/stack-finance/branch-events-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/stack-finance/branch-events-sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stack-finance/branch-events-sdk.git"
+  },
+  "license": "MIT",
+  "author": "Stack Finance",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "check": "biome check src/",
+    "format": "biome check --write src/"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "@types/node": "^24.3.0",
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}
