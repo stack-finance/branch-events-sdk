@@ -19,6 +19,7 @@
   "author": "Stack Finance",
   "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
@@ -26,10 +27,17 @@
     "format": "biome check --write src/"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.0",
+    "@biomejs/biome": "^1.9.4",
     "@types/node": "^24.3.0",
     "tsc-alias": "^1.8.16",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2"
-  }
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "pino": "^7.11.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
