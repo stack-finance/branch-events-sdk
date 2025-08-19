@@ -17,7 +17,8 @@ export class BranchIOEvents {
 
     /**
      * Method to add a new event or update an existing event.
-     * @param {object} payload - An object which contains the JSON payload defined in the docs here: https://developers.google.com/analytics/devguides/collection/protocol/ga4/reference?client_type=firebase#payload_post_body
+     * @param {LoggingType} type - The logging type. It can be LoggingType.STANDARD or LoggingType.CUSTOM only.
+     * @param {BranchEventsPayload} payload - An object which contains the JSON payload as per BranchEventsPayload. More information here: https://help.branch.io/apidocs/events-api
      * @returns {Promise} A response promise(fetch promise) from the provider, if successful, the response will be in JSON format. Errors need to be handled separately.
      */
     triggerEvent(type: LoggingType, payload: BranchEventsPayload): Promise<Response>;
