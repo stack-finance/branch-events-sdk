@@ -1,6 +1,6 @@
 {
   "name": "@stack-finance/branch-events-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An SDK for making requests to branch.io/events ",
   "keywords": [
     "branch",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "node-fetch": "^3.3.2",
-    "pino": "^7.11.0"
+    "pino": "^9.9.0"
   },
   "files": [
     "dist"
