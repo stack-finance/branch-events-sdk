@@ -1,2 +1,2 @@
-export { BranchIOEvents } from "./api.js"
-export * from "./types/interfaces.js"
+export { BranchIOEvents } from "./api.js";
+export * from "./types/interfaces.js";
