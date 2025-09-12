@@ -114,9 +114,3 @@ export enum LoggingStandardEvents {
   RATE = "RATE",
   SHARE = "SHARE",
 }
-
-const check: BranchEventsContentItemsParams = {
-  $canonical_identifier: "asdjakhjsd",
-};
-
-console.log(check);
