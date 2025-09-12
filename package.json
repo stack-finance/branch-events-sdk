@@ -1,6 +1,6 @@
 {
   "name": "@stack-finance/branch-events-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An SDK for making requests to branch.io/events ",
   "keywords": [
     "branch",
